@@ -4,29 +4,35 @@
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
   <section class="bg-white py-16 text-center">
     <div class="container mx-auto max-w-5xl">
-      <h1 class="mb-4 text-5xl font-bold text-gray-800">Discover Innovative Research and Datasets</h1>
-      <p class="mb-12 text-gray-700">Explore groundbreaking research and access curated datasets to fuel your projects.</p>
+      <h1 class="mb-4 text-5xl font-bold text-gray-800">PathFindRNET computer vision research</h1>
+      <p class="mb-12 text-gray-700">Explore our latest results achieved in the PathFindRNET project. Get to know the codebase and the datasets.</p>
     </div>
   </section>
   <!-- Section 2 -->
   <section class="bg-gray-100 py-16">
     <div class="container mx-auto max-w-5xl">
       <h2 class="mb-8 text-4xl font-bold text-gray-800">About the Research</h2>
-      <p class="mb-12 text-gray-700">Your research focuses on [describe the research topic]. By combining [mention methods or techniques], you have uncovered valuable insights and trends that can help [describe the potential impact].</p>
+      <p class="mb-12 text-gray-700">Our research focuses on utilizing computer vision and machine learning to create and analyse traffic datasets. 
+        By combining object detection and object tracking, we have uncovered valuable insights and trends that can help to understand the flow of 
+        traffic in crossroads and other situations. The framework we developed helps to process and create statistical models from the datasets we
+        created</p>
     </div>
   </section>
   <!-- Section 3 -->
   <section class="bg-white py-16">
     <div class="container mx-auto max-w-5xl">
-      <h2 class="mb-8 text-4xl font-bold text-gray-800">Featured Datasets</h2>
+      <h2 id="#datasets" class="mb-8 text-4xl font-bold text-gray-800">Featured Datasets</h2>
       <div class="flex flex-wrap">
         <!-- Dataset 1 -->
         <div class="flex w-full flex-shrink flex-grow flex-col p-6 md:w-1/3">
           <div class="flex-1 overflow-hidden rounded-b-none rounded-t bg-white text-gray-600 shadow">
-            <div class="p-8 text-3xl font-bold text-gray-800">Dataset 1</div>
+            <div class="p-8 text-3xl font-bold text-gray-800">Bellevue 116th 12th</div>
             <ul class="w-full text-left text-sm">
-              <li class="border-b py-4"><strong class="text-gray-700">Description:</strong> [Provide a brief description of the dataset]</li>
-              <li class="border-b py-4"><strong class="text-gray-700">Key Findings:</strong> [List the most important findings]</li>
+              <li class="border-b py-4"><strong class="text-gray-700">Description:</strong> 
+                This dataset is created from video footage from the location, which can be found 
+                <a href="http://www.google.com/maps/place/47.622943539413264,%20-122.18555387752869">here</a>.</li>
+              <li class="border-b py-4"><strong class="text-gray-700">Key Findings:</strong> With this smaller dataset we were able to run quick tests and developer our framework. 
+                This dataset helps to find the best parameters for the preprocessing algorithms to reduce noise from the dataset</li>
               <li class="border-b py-4">
                 <strong class="text-gray-700">Access:</strong>
                 <a href="#" class="text-blue-500 hover:text-blue-700">Download Dataset</a>
@@ -36,12 +42,33 @@
           <div class="mt-auto flex-none overflow-hidden rounded-b rounded-t-none bg-gray-100 p-6 shadow">
             <div class="flex items-center justify-start">
               <img src="https://via.placeholder.com/100x100" alt="Dataset 1 preview image" class="mr-4 h-16 w-16 rounded-full object-cover object-center" />
-              <span class="font-bold text-gray-800"> [Your Name] </span>
+              <span class="font-bold text-gray-800"> Agg Áron & Péter Bence </span>
             </div>
           </div>
         </div>
         <!-- Dataset 2 -->
-        <!-- Add more dataset cards as needed -->
+        <div class="flex w-full flex-shrink flex-grow flex-col p-6 md:w-1/3">
+          <div class="flex-1 overflow-hidden rounded-b-none rounded-t bg-white text-gray-600 shadow">
+            <div class="p-8 text-3xl font-bold text-gray-800">Bellevue 150th Newport</div>
+            <ul class="w-full text-left text-sm">
+              <li class="border-b py-4"><strong class="text-gray-700">Description:</strong> 
+                This dataset is created from video footage from the location, which can be found 
+                <a href="http://www.google.com/maps/place/47.570826946883805,%-122.14137222758674">here</a>.</li>
+              <li class="border-b py-4"><strong class="text-gray-700">Key Findings:</strong> This dataset helped us capture a lot more features, that can be found
+                in a traffic junktion. We were able to train larger statistical models with this dataset, and finetune their hyperparameters.</li>
+              <li class="border-b py-4">
+                <strong class="text-gray-700">Access:</strong>
+                <a href="#" class="text-blue-500 hover:text-blue-700">Download Dataset</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-auto flex-none overflow-hidden rounded-b rounded-t-none bg-gray-100 p-6 shadow">
+            <div class="flex items-center justify-start">
+              <img src="https://via.placeholder.com/100x100" alt="Dataset 1 preview image" class="mr-4 h-16 w-16 rounded-full object-cover object-center" />
+              <span class="font-bold text-gray-800"> Agg Áron & Péter Bence </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -49,7 +76,7 @@
   <section class="bg-gray-100 py-16">
     <div class="container mx-auto max-w-5xl text-center">
       <h2 class="mb-8 text-4xl font-bold text-gray-800">Get Started with Your Research Today</h2>
-      <a href="#" class="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"> Access the Datasets </a>
+      <a href="#datasets" class="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"> Access the Datasets </a>
     </div>
   </section>
 </body>
